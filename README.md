@@ -7,19 +7,44 @@ The task involved connecting to multiple CSV files, cleaning data, creating calc
 and preparing the model for reporting.
 
 
-Key Objectives
-1.Create queries to connect to the two new .csv files
-2.Name your queries Product Category Lookup and Product 
-Subcategory Lookup
-3.Confirm that column headers have been promoted and that 
-all data types are correct
-4.Add a new column to extract all characters before the dash 
-("-") in the Product SKU column, and name it ”SKU Type”
-5.Update the SKU Type calculation above to return all 
-characters before second dash, instead of the first
-6.Replace zeros (0) in the Product Style column with “NA”
-7.Close and load to your data model
+Overview:
+We are updating the internal reports in Power BI with new data and modifications to the product table. The steps below outline the key objectives and tasks.
 
+Key Objectives:
+
+Connect to New Data Sources
+
+Create queries to connect to the following CSV files:
+
+Product Category Lookup
+
+Product Subcategory Lookup
+
+Query Setup
+
+Name the queries:
+
+Product Category Lookup
+
+Product Subcategory Lookup
+
+Promote column headers and confirm that all data types are correctly set.
+
+Product Table Modifications
+
+SKU Type Extraction:
+
+Add a new column in the Product table to extract all characters before the dash (“-”) in the Product SKU column. Name this column SKU Type.
+
+Update the SKU Type calculation to extract all characters before the second dash instead of the first.
+
+Product Style Cleanup:
+
+Replace zeros (0) in the Product Style column with "NA".
+
+Finalize Updates
+
+Close and load all queries to the Power BI data model.
 
 
 
