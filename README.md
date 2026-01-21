@@ -46,9 +46,7 @@ We are updating the internal reports in Power BI with new data and modifications
 
 * Close and load all queries to the Power BI data model.
 
----
 
-If you want, I can also make an **even more concise, presentation-friendly version** that fits on a single slide. Do you want me to do that?
 
 
 
